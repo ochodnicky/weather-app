@@ -1,0 +1,11 @@
+appId: com.weatherapp
+---
+- assertVisible:
+    id: 'weather-detail-item-703448'
+
+- assertVisible: 'Humidity.*%'
+- assertVisible: 'Pressure.*hPa'
+- assertVisible: 'Wind Speed.*mps'
+- assertVisible: 'Cloud Coverage.*%'
+
+- runFlow: ../subflows/go-back.yaml

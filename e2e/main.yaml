@@ -1,0 +1,8 @@
+appId: com.weatherapp
+---
+- launchApp:
+    clearState: true
+
+- runFlow: flows/home-screen.yaml
+
+- runFlow: flows/details-screen.yaml
